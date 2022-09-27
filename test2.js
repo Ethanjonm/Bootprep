@@ -24,7 +24,7 @@ console.log(foo) // A=[Function: foo] [this just log what the function name]
 function foo(p1,p2){
   return p1+" "+p2;
 }
-console.log(foo('ethan','mercado')) 
+console.log(foo('ethan','mercado'));
 
 let foo1 = function(){
   return "bar";
@@ -36,3 +36,22 @@ let foo2 = () =>{
 console.log(foo1())
 console.log(foo2())
 
+function average(num1,num2){
+  let sum = num1 + num2; // adding the 2 numbers = sum
+  let avg = sum /2; //sum /2 = avg
+  return avg; // gives back avg
+}
+
+function average2 (num1 , num2){
+  let sum = sumNums(num1, num2)  // funtion sumNums on num1 and num2 = sum
+  let avg = sum/2 //sum  /2 = avg
+  return avg; //gives back avg
+}
+
+function sumNums(num1, num2){
+  return num1 + num2;
+}
+
+console.log(average(8,2));
+console.log(average2(18,2));
+console.log(sumNums(18,12));
