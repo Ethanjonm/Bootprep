@@ -55,3 +55,86 @@ function sumNums(num1, num2){
 console.log(average(8,2));
 console.log(average2(18,2));
 console.log(sumNums(18,12));
+
+function isOdd(num){
+  return num % 2 !== 0;
+}
+
+console.log(isOdd(5))
+
+function plusFive(num){
+  return num + 5;
+}
+
+console.log(plusFive(10))
+console.log(plusFive(2))
+console.log(plusFive(-8))
+
+function threeOrSeven(num){
+  return num % 3 === 0 || num % 7 ===  0
+}
+
+console.log(threeOrSeven(3));
+console.log(threeOrSeven(42));
+console.log(threeOrSeven(8));
+
+function hello(str){
+  let message = "Hello, " + str
+  console.log(message);
+}
+
+console.log(hello("child"))
+console.log(hello("Anthony"))
+
+function yell(str){
+  let yelling = str.toUpperCase()
+  console.log(yelling);
+}
+
+console.log(yell("Time to program"))
+
+function whisper(str){
+  let whispering = str.toLowerCase()
+  console.log(whispering);
+}
+
+console.log(whisper("Hey Anthony"));
+
+function echo(str){
+  let echo1 = str.toUpperCase()
+  let echo2 = str
+  let echo3 = str.toLowerCase()
+  console.log(echo1, echo2, echo3);
+}
+
+console.log(echo("Mom!"))
+console.log(echo("hey"))
+console.log(echo("JUMp"))
+
+function isSubstring(searchString, subString){
+  let searchString1 = searchString.toUpperCase()
+  let subString1 = subString.toUpperCase()
+  let theString = searchString1.indexOf(subString1)
+  return theString > -1;
+}
+
+console.log(isSubstring("The cat went to the store", "he cat went"));
+console.log(isSubstring("Time to program", "time"));
+console.log(isSubstring("Jump for joy", "joys"));
+
+function isEven(num){
+  return num % 2 === 0;
+}
+
+console.log(isEven(2))
+console.log(isEven(5))
+
+function AverageOfFour(num1,num2,num3,num4){
+  let sum1 =  num1 + num2 + num3 + num4;
+  let avg1 = sum1 /4;
+  return avg1
+}
+
+console.log(AverageOfFour(10,10,15,5))
+console.log(AverageOfFour(3,10,11,4))
+console.log(AverageOfFour(1,2,3,4))
