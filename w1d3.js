@@ -133,3 +133,6 @@ function printsFives(max){
 }
 
 printsFives(20)
+
+console.log("---10")
+
