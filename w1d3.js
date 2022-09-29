@@ -111,5 +111,25 @@ function logBetween(lowNum, highNum){
 
 logBetween(-1, 2);
 logBetween(14, 6)
-logBetween(4, 6)
+logBetween(4, 5)
 
+console.log("---8")
+
+function logBetweenStepper(min, max, step){
+    for (let t = min; t <= max; t += step){
+        console.log(t)
+    }
+}
+
+logBetweenStepper(5, 9, 1)
+
+
+console.log("---9")
+
+function printsFives(max){
+    for (let m = 0; m <= max; m += 5){
+        console.log(m)
+    }
+}
+
+printsFives(20)
