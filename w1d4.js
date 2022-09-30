@@ -46,14 +46,41 @@ console.log(string);
 
 console.log(numbers.join("___"))
 
+console.log("---5")
+// [1,2,3]
 for(let i = 0; i < numbers.length; i++){
-    let ele = numbers [i];
-    console.log(ele);
+    let ele = numbers[i];
+    console.log(i + ": " + ele);
+
 }
 
-for (let i = numbers.lenghts -1; i >= 0; i--){
-    let ele = numbers [i];
+for (let i = numbers.length -1; i >= 0; i--){
+    let ele = numbers[i];
     console.log(ele)
 }
 
+console.log()
 
+console.log("---6")
+
+function longEach(array1){
+    for (let a1 = 0; a1 < array1.length; a1++){
+        let ele1 = array1[a1];
+        console.log(a1 + ": " + ele1);
+    }
+}
+
+longEach(["Anthony", "John", "Carson"])
+
+console.log("---7")
+
+function range(start, end){
+    for (let r1 = start; r1 <= end; r1 += 1){
+        console.log(r1)
+    }
+}
+
+
+
+console.log(range(1,4))
+console.log(range(4,2))
