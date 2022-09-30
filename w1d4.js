@@ -77,10 +77,25 @@ console.log("---7")
 function range(start, end){
     for (let r1 = start; r1 <= end; r1 += 1){
         console.log(r1)
-    }
-}
+        }
 
+    }
 
 
 console.log(range(1,4))
 console.log(range(4,2))
+
+console.log ("--8")
+
+// Write a function sumArray(array) that takes in an array of numbers that returns the
+// total sum of them.
+//
+//
+// Examples:
+//
+// sumArray([5, 6, 4]); // => 15
+// sumArray([7, 3, 9, 11]); // => 30
+
+function sumArray(array3){
+
+}
