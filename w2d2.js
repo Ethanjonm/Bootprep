@@ -93,5 +93,6 @@ console.log(cat.test) //undefined if the key does not exist
 let test = "name";
 
 console.log(cat[test]) //Jael
+console.log(cat.test) // undefined because its looking for key of test not the variable test
 
 
