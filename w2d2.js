@@ -94,5 +94,18 @@ let test = "name";
 
 console.log(cat[test]) //Jael
 console.log(cat.test) // undefined because its looking for key of test not the variable test
+console.log("-----1")
+/*
+Loop though objects
+*/
+
+function printObject(obj){
+    for (let key in obj) { // (in) lets you loop a object
+        console.log(key)  // name, color, toys, age
+        console.log(obj[key]) // name, name[key], color, color[key], toys, toys[keys] age, age[keys]
+    }
+}
+
+printObject(cat) // name, Jael, color, blue, toys, outside, age, 21
 
 
