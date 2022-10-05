@@ -87,7 +87,7 @@ console.log(cat.name) // Jael
 console.log(cat.age) //21
 console.log(cat.toys) // { outside: [ 'ball', 'whistle' ], inside: [ 'blaket' ] }
 console.log(cat.toys.outside) //[ 'ball', 'whistle' ]
-console.log(cat.toys.outside[0]) //ball
+console.log(cat.toys.outside[0]) //ball because ball is in an array
 console.log(cat.test) //undefined if the key does not exist
 
 let test = "name";
