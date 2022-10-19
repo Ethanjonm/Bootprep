@@ -7,6 +7,11 @@ Recursion
 why do we care?
 -other professionals use it
 -elegance**
+where you see them
+-sorting algorithim
+-searching algorithim
+- tree traversal
+- graph traveral
 */
 
 
@@ -19,3 +24,11 @@ why do we care?
 // console.log(multiply(2,3))
 // console.log(multiply(7,8))
 
+// const fib = n => {
+//     if (n === 1 || n === 2) return 1
+//     return fib(n-1) + fib(n - 2)
+// }
+
+// console.log(fib(5)) // 5
+// console.log(fib(10)) // 55
+// console.log(fib(90)) // 
